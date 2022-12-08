@@ -1,0 +1,30 @@
+{
+  "name": "news-explorer-api",
+  "version": "1.0.0",
+  "description": "Backend API of the News Explorer project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigberg/news-explorer-api.git"
+  },
+  "author": "Meir Nigberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nigberg/news-explorer-api/issues"
+  },
+  "homepage": "https://github.com/nigberg/news-explorer-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
