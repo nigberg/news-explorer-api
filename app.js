@@ -12,6 +12,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose')
 const NotFoundError = require('./utils/errors/NotFoundError')
 const auth = require('./middlewares/auth')
+const centralizedErrorHandler = require('./middlewares/centralizedErrorHandler');
 const {createUser, login} = require('./controllers/users')
 
 const app = express()
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
   const err = new NotFoundError(`Route ${req.url} is not supported in this app`);
   next(err);
 });
+app.use(centralizedErrorHandler);
 
 
 
