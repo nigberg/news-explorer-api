@@ -28,7 +28,7 @@ app.use(auth);
 app.use('/', usersRouter)
 app.use('/', articlesRouter)
 app.use((req, res, next) => {
-  const err = new NotFoundError(`Route ${req.url} not found`);
+  const err = new NotFoundError(`Route ${req.url} is not supported in this app`);
   next(err);
 });
 
