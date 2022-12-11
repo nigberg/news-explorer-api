@@ -1,24 +1,26 @@
 # News Explorer project  
 The API backend part of NewsExplorer project  
 
-# Supported routes: 
+### Supported routes: 
 
-## POST /signup - for new user registration  
-Expected data: email, name, password  
+POST /signup - for new user registration  
+(Expected data: email, name, password)  
 
-## POST /signin - for authorization with email and password  
+POST /signin - for authorization with email and password  
 
-## GET /users/me - returns current authirized user data  
+GET /users/me - returns current authirized user data  
 
-## GET /articles - returns all saved news articles saved by current user  
+GET /articles - returns all saved news articles saved by current user  
 
-## POST /articles - to create new article  
+POST /articles - to create new article  
 
-## DELETE /articles/:articleId - to remove existing saved article by ID  
+DELETE /articles/:articleId - to remove existing saved article by ID  
 
-### Author: Meir Nigberg  
+### Author: 
+_Meir Nigberg_  
 
-### IDE I used: VS Code  
+### IDE I used: 
+_VS Code_  
 
 ### Technologies I used:  
 
