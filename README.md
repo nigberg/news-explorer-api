@@ -28,4 +28,4 @@ _NodeJS_
 _ExpressJS_  
 _MongoDB_  
 
-[Link to deployed API](https://api.nigberg.students.nomoredomainssbs.ru)
+[Link to deployed API](https://api.nigberg-news.students.nomoredomainssbs.ru)
