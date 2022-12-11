@@ -7,4 +7,3 @@ module.exports.RATE_LIMITER_CONFIGURATIONS = {
   standardHeaders: true,
   legacyHeaders: false,
 };
-
